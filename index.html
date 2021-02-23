@@ -9,7 +9,12 @@
     <title>index</title>
 </head>
 <body>
-    <h1>index画面</h1>
-    <button onclick="showSum(event)">Sum</button>
+    <h1>TYPINGTUBE</h1>
+    <form name= "typing" onsubmit="selectText();return false">
+        <p id= "questionText"></p>
+        <input name= "input" type="text">
+        <input name= "submitBtn" type="submit">
+    </form>
+    <p id= "timer">制限時間：10秒</p>
 </body>
 </html>
