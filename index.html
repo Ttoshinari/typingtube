@@ -10,9 +10,10 @@
 </head>
 <body>
     <h1>TYPINGTUBE</h1>
-    <form name= "typing" onsubmit="selectText();return false">
+    <form name= "typingForm" onsubmit="init();return false">
+        <p id= "resultText"></p>
         <p id= "questionText"></p>
-        <input name= "input" type="text">
+        <input name= "inputText" type="text">
         <input name= "submitBtn" type="submit">
     </form>
     <p id= "timer">制限時間：10秒</p>
